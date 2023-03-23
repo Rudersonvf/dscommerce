@@ -1,10 +1,10 @@
 package com.devsuperior.dscommerce.entities;
 
+import jakarta.persistence.*;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-
-import jakarta.persistence.*;
 
 @Entity
 @Table(name = "tb_user")
